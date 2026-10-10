@@ -1,0 +1,24 @@
+{
+  "candidate_id": "FC2",
+  "specification_version": "2.5",
+  "status_at_freeze": "final_review_candidate_not_Stable",
+  "public_sync": "not_performed",
+  "production_deployment": "not_performed",
+  "static_packaging": "pass_when_validator_succeeds",
+  "behavioral_evidence": "documented_with_targeted_correction_and_explicit_scope_limits",
+  "review_order": [
+    "AUREN",
+    "ChatGPT",
+    "Claude"
+  ],
+  "reviews": {
+    "AUREN": "pending",
+    "ChatGPT": "pending",
+    "Claude": "pending"
+  },
+  "human_release_decision": "pending",
+  "later_results": "separate_sidecars_reference_frozen_ZIP_hashes; never_edit_this_snapshot_in_place",
+  "previous_candidate_id": "FC1",
+  "current_candidate_model_runs": 0,
+  "reference_addition_review": "pending_in_AUREN_ChatGPT_Claude_final_reviews"
+}

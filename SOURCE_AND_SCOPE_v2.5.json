@@ -1,0 +1,181 @@
+{
+  "preparation_id": "v2.5-PUBLISH-PREP-R1-20261010",
+  "prepared_on": "2026-10-10",
+  "status": "maintainer_approved_stable_at_package_freeze",
+  "sources": {
+    "public_FC2_sha256": "4461a67a69e9a242fd861282b3c5dc1d8999764d31205c564512eea7c9da9f59",
+    "internal_R1_sha256": "52ff0b91d34fe81bfd42021437271515da12abcca80ad9d33455dbe517808888",
+    "repository_documents_R1_sha256": "a05dc4b1b75b87caab78d73d01f09ddd50e7dd7ff03960215f547c100e9363af",
+    "repository_url": "https://github.com/stephan-davis-lab/auren-core-specs",
+    "repository_base_commit": "617b3dbc5071efe5628763aa8b74dd4072881988",
+    "repository_read_on": "2026-10-10",
+    "existing_notice_sha256": "f858835b931d89b8233f686b345b821da0718803b19d7d4770bc298145e49f0b",
+    "cc_legalcode_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+    "cc_legalcode_read_on": "2026-10-10",
+    "previous_preparation_sha256": "3c35217ddd9d0e78d232a61b3dd76cc5f57fb77a233803afbefb3ef1c23dcc30",
+    "approved_notice_revision_sha256": "fe332ef8e7c420a2f288253fc2c96d8fb56850bc777d31e2801d6a17c0acd3ea",
+    "publication_preparation_R1_sha256": "886307f975d759d30af9b3ad56d3a79ed37d29e7e6ed68ce53aadfab90a3f8dd"
+  },
+  "fixed_rule_and_file_hashes": {
+    "core_body": "71ef4c028b6e0cd90ddc9c4569067bb7322214b46230136c0f75ea397738682c",
+    "core_text_after_release": "cc9f8d321647da19c1b559f5eedace2f52674aeec550f350aca72d2c3c465a9f",
+    "logic_body": "e7345248d735795ee7e79cff0ad44069ca67a1b77603656a4cfb1ad036f52cec",
+    "guidance_rules_excluding_status_prepared_on_and_official_release": "4156a7dfdeb851164cb10701b69c01df472d3ccad20d0a95f8ecd2a2e2d58ed8",
+    "adapter_body_excluding_single_status_sentence": "d1f25744febee3b9bad5559ad34f68f42a419c35cd490731b7f175de82a304d2",
+    "scenario_yaml": "5a49e67b0a8c9e042022091afefad0cc06c1288efc43f1b707c39eb606b1d6f8",
+    "scenario_markdown": "a471fcf4f9c8320e1045794d79a51bd36c70626e7669ac0bacbb1eda3c18cb93",
+    "cc_legal_code": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+    "mit_license": "0e070fa80969201ae436b9f2c0d0d6d6899d00821b8a79041cc2b4a9a69095b5"
+  },
+  "preserved_v2_4_files": {
+    "auren-core-specs_v2.4.yaml": "990c83356a1465a059d6e518c11e28eaa870a6ae1592d6dc60b28694040da475",
+    "auren-core-logic_v2.4.md": "ddd80e6eb6ea9f08b5a47ec6c65e15e7b6dff02beeacce210bc0ee9e30847092",
+    "Guidance4AIsystems_v2.4.txt": "7fdb7d8032de00a41b4d585887cbd025c840e24f17b1a303f8d8c9a9d7454761",
+    "exports/auren-core-specs_v2.4.yaml.txt": "990c83356a1465a059d6e518c11e28eaa870a6ae1592d6dc60b28694040da475"
+  },
+  "preserved_fc2_snapshots_and_evidence": {
+    "evidence/fc2/SOURCE_AND_SCOPE_at_freeze.json": "07528d87ccab1aebbd968e757b4eb6f3f32e8cc168cd4ff282980f597f71149e",
+    "evidence/fc2/RELEASE_GATES_at_freeze.json": "5e3882c57f7fff396c489d09c830c84b01cfcb4cea581a46e329c9a902c808ce",
+    "evidence/fc2/static-results_at_freeze.json": "2aa8c72c81b811e39dafb1b8342add5bcb6cf6c7938194a4c16137b529cb04aa",
+    "evidence/RESONANZKREIS_REFERENCE_ADDITION_FC2.md": "66fd321fc9224d70da51dbade0dbc5f0a4b0ca619a8e819c0a5af4fa4a5fe3a9",
+    "evidence/SAFETY_CALIBRATION_SOURCES_v2.5-rc3.md": "a0ddc43ee174ba4eee0f8e9fa89231c3f4ae3bae1f9237fbaaa4e0d16900e44e",
+    "evidence/fc2/CHANGELOG_at_freeze.md": "211536df0501de3bea125225d932e3100b2275eb745a60120e25a97961339a55",
+    "evidence/previous_preparation/FC2_and_documents_R1_to_preparation_at_freeze.diff": "052b7085f1a4f08905f5395bfacfc614bece08af47f9691ade7e42cac3f48508"
+  },
+  "reviewed_policy_identity": {
+    "CODE_OF_CONDUCT.md": {
+      "reviewed_r1_sha256": "0248536004e3a62aec22978d3fc947d9171650b60c0692dbc4e858932e69107b",
+      "body_without_status_sha256": "25808ac5c229eb5b42a9fe7fd6d0b0784979f02e0a9af72d55299b49762da3eb"
+    },
+    "CONTRIBUTING.md": {
+      "reviewed_r1_sha256": "0c9501c2495f969dc86e22d7f9dd0c8f92a6ccacac490fdb5be0a3c852c9f05a",
+      "body_without_status_sha256": "1d2093e454c25e423eb7eb5e4d2b62d6775d9e68d38a61e174add339205b2d2a"
+    },
+    "SECURITY.md": {
+      "reviewed_r1_sha256": "68b5ada36d919e5e51d53a2fc221ee8c196585c44ed2c3eed239a4ddd9d76b12",
+      "body_without_status_sha256": "8952a1e09c7b4aa349b9fd97793c1b74a3ceac44e32d453453b4c98e4a5b2ae2"
+    },
+    "SAFETY.md": {
+      "reviewed_r1_sha256": "4ea29683411ce6dd94d5ca87761b163ca91982a3876c9a05fa56adbd6255fc47",
+      "body_without_status_sha256": "e4a5849f450626b1de6f8aa3e57fd9dc5c9d902fb35fc87ddbae05d277ce0aff"
+    }
+  },
+  "exact_change_scope": {
+    "core_release_changed_keys": [
+      "final_reviews_status",
+      "human_release_decision",
+      "prepared_on",
+      "previous_candidate",
+      "purpose",
+      "status",
+      "status_snapshot"
+    ],
+    "core_release_renamed_key": {
+      "final_candidate_id": "source_final_candidate_id"
+    },
+    "core_top_level_and_every_nonrelease_rule": "unchanged, including resonance_cycle",
+    "guidance_changed_paths": [
+      "orientation_framework.status",
+      "orientation_framework.prepared_on",
+      "orientation_framework.validation.official_release",
+      "orientation_framework.source_hierarchy.context"
+    ],
+    "logic_changed_scope": "one status preface before the fixed Logic-body anchor",
+    "public_adapter_changed_scope": "one evidence/release-status sentence; every other byte inside the excerpt unchanged",
+    "policies_changed_scope": "The adopted header is retained. CODE_OF_CONDUCT.md, SECURITY.md and SAFETY.md are byte-identical to preparation R1. CONTRIBUTING changes only by the declared reporting-paragraph expansion; reversal restores its preparation-R1 bytes and reviewed document-R1 body.",
+    "other_documentation": [
+      "README/NOTICE/CHANGELOG/license declaration",
+      "behavioral delivery-method and current review scope",
+      "release-status/provenance sidecars",
+      "new static validator and manifest"
+    ],
+    "no_permission_to_change": [
+      "Core rules",
+      "operative Guidance rules",
+      "Logic body",
+      "canonical scenarios",
+      "adapter behavioral instructions",
+      "frozen source ZIPs",
+      "private authorization"
+    ],
+    "guidance_context_path_change": {
+      "from": "README_v2.5.md",
+      "to": "README.md"
+    },
+    "central_documents": [
+      "README.md",
+      "NOTICE.md",
+      "LICENSE",
+      "CHANGELOG.md"
+    ],
+    "additional_R1_scope": [
+      "explicit external-material exclusions",
+      "central document consolidation",
+      "recorded maintainer policy adoption",
+      "repository reporting configuration with evidence limits",
+      "new revision identity and validation records"
+    ],
+    "core_release_added_keys": [
+      "approved_on",
+      "release_package_id",
+      "release_preparation_id",
+      "source_final_candidate_id"
+    ],
+    "core_release_removed_keys": [
+      "final_candidate_id"
+    ],
+    "stable_package_scope": [
+      "recorded maintainer Stable approval; version/tag v2.5",
+      "Core/Guidance/Logic/adapter release-status metadata and prefaces only",
+      "CONTRIBUTING reporting paragraph expanded with conduct/safety/security routes and subjects",
+      "current README/CHANGELOG and provenance/status sidecars",
+      "immutable preparation-R1 snapshots, transition diff, validator, execution record and manifest"
+    ],
+    "contributing_reporting_change": {
+      "preparation_r1_file_sha256": "c81f5df56b58cfc7db3f551fd82d87f4df987e9b73c154795b5b84e74e764b96",
+      "current_file_sha256": "2dd061fc8f504198be95005299c5b1283d2bbaff01ac5d22f0bf834946091e86",
+      "changed_region": "reporting paragraph in Classify the finding; before Make a report reviewable",
+      "scope": "reporting routes only; contribution-license terms and other sections unchanged"
+    }
+  },
+  "human_adoption": "confirmed_for_v2_5_release_in_maintainer_chat",
+  "new_model_runs": 0,
+  "private_material_included": false,
+  "publishing_limit": "Human Stable approval was given by the maintainer on 2026-10-10. At package freeze no repository content write, release publication, website synchronization or integration installation had been performed. GitHub settings had previously been enabled by the maintainer.",
+  "reporting_configuration": {
+    "repository": "stephan-davis-lab/auren-core-specs",
+    "checked_on": "2026-10-10",
+    "private_vulnerability_reporting": "enabled_in_repository_ui",
+    "secret_protection": "enabled_in_repository_ui",
+    "push_protection": "enabled_in_repository_ui",
+    "notification_channels": [
+      "GitHub",
+      "Email"
+    ],
+    "watch_events": [
+      "Issues",
+      "Security alerts"
+    ],
+    "watch_saved_confirmation": "maintainer_confirmed_in_chat",
+    "evidence_scope": "screenshots_read; repository_subscription_save_confirmed_by_maintainer; no_setting_changed_by_Codex",
+    "report_submission_test": "not_performed",
+    "notification_email_delivery_test": "not_performed",
+    "public_security_policy": "included_in_approved_stable_package; remote_publication_not_verified"
+  },
+  "package_id": "v2.5-STABLE-20261010",
+  "release_id": "v2.5",
+  "approved_on": "2026-10-10",
+  "approval_record": "evidence/STABLE_APPROVAL_AND_REPORTING_UPDATE_2026-10-10.md",
+  "preserved_preparation_R1_records": {
+    "evidence/preparation_R1/RELEASE_STATUS_at_freeze.json": "a618aecc5daa12da8c48187c5475a5be93a26d767ff5f4eefdf527f62373cdba",
+    "evidence/preparation_R1/SOURCE_AND_SCOPE_at_freeze.json": "66dc2ea6bd350d6893f860c488094181cb3017a8a2d0ea497ded1518320f73f9",
+    "evidence/preparation_R1/CHANGELOG_at_freeze.md.txt": "2686c2c0b0f78080bf759ce4109a0cba131b160aaf8ac519e2970e81f4a5bd53",
+    "evidence/preparation_R1/static-results_at_freeze.json": "a26f2cbc894d281dfecd67efc8861e19e3e2e7f60616d8378b469ed59ef40225"
+  },
+  "current_policy_file_sha256": {
+    "CODE_OF_CONDUCT.md": "059d01f79a44269bf06b6fc1501200360dc62b7e0a520f2122a049a6223fb868",
+    "CONTRIBUTING.md": "2dd061fc8f504198be95005299c5b1283d2bbaff01ac5d22f0bf834946091e86",
+    "SECURITY.md": "37f39a11e0af1491a5e041632f179b28776e80f5baa4da93d16bac478ea7f465",
+    "SAFETY.md": "40a178cb9182351186f488b8817c7dac4b3983564510f7153bf5b5219ab2b1b2"
+  }
+}

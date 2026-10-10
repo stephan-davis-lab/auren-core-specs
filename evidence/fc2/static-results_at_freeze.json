@@ -1,0 +1,81 @@
+{
+  "candidate": "AUREN-v2.5-FC2",
+  "validation_kind": "static_only",
+  "status": "pass",
+  "checks": [
+    {
+      "check": "yaml_unique_keys_and_metadata_parse",
+      "status": "pass",
+      "detail": "Three YAML documents with duplicate-key rejection; two metadata sidecars parsed."
+    },
+    {
+      "check": "identity_and_release_snapshot",
+      "status": "pass",
+      "detail": "v2.5 / FC2 identity aligned; release candidate, not published."
+    },
+    {
+      "check": "current_core_semantic_hash",
+      "status": "pass",
+      "detail": "Current FC2 body, including the optional reference, matches its recorded semantic hash."
+    },
+    {
+      "check": "single_optional_reference_delta_to_fc1_rc3",
+      "status": "pass",
+      "detail": "Exactly one optional Resonanzkreis reference added; removing it reproduces the complete frozen FC1/RC3 body."
+    },
+    {
+      "check": "guidance_nonmetadata_equivalence",
+      "status": "pass",
+      "detail": "Guidance preserved except identified date/version/file/evidence metadata."
+    },
+    {
+      "check": "logic_body_equivalence",
+      "status": "pass",
+      "detail": "Logic body byte-identical after the version/status/source preface."
+    },
+    {
+      "check": "yaml_txt_byte_identity",
+      "status": "pass",
+      "detail": "Byte-identical exports, 46449 bytes each."
+    },
+    {
+      "check": "core_local_references",
+      "status": "pass",
+      "detail": "All 54 Core-local references resolve."
+    },
+    {
+      "check": "priority_and_final_routing",
+      "status": "pass",
+      "detail": "Seven mode priorities and final routing stay aligned."
+    },
+    {
+      "check": "question_budget_alignment",
+      "status": "pass",
+      "detail": "Normal Phase 0, stabilization and crisis budgets retain their distinct scope."
+    },
+    {
+      "check": "scenario_equivalence_inventory_and_refs",
+      "status": "pass",
+      "detail": "45 unchanged canonical cases, 51 stages, five continuations, valid rule references."
+    },
+    {
+      "check": "package_paths_and_notices",
+      "status": "pass",
+      "detail": "Versioned source paths, evidence summary and licenses are present."
+    },
+    {
+      "check": "evidence_and_gate_claim_boundaries",
+      "status": "pass",
+      "detail": "Independent final reviews, human decision and deployments remain pending; behavioral scope is explicit."
+    },
+    {
+      "check": "public_bundle_scope",
+      "status": "pass",
+      "detail": "No private screenshots, response forms, nested audit archive, auth file or AAC credential in Public Bundle."
+    }
+  ],
+  "model_calls": 0,
+  "semantic_verdicts_verified": false,
+  "review_gate_approved": false,
+  "phase": "pre_freeze"
+}

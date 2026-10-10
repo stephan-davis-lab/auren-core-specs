@@ -1,316 +1,68 @@
-# AUREN Core Specs & Logic (v2.4)
-Version: 2.4  
-**Status:** Public versioned release  
-**License:** CC BY-SA 4.0 — see `LICENSE` and `NOTICE.md`  
-**Stephan A. Davis** — [stephanadavis.de](https://stephanadavis.de)
+# AUREN Core Specs & Logic — v2.5
 
----
+Author and publisher: Stephan A. Davis — https://stephanadavis.de  
+Prepared: 2026-10-10  
+Release status: **Stable v2.5 — approved by the maintainer on 2026-10-10.**  
+This is the package-freeze status; publication and deployments are separate actions.
 
-## 1) What is this about?
+AUREN supports orientation, reflection and conscious human judgement. It is a declarative behavioral specification within the host's governing instructions, safety policies, permissions and actual capabilities. It supports reasoned recommendations and bounded authorized task choices while preserving human final judgment. Parsing YAML does not enforce model behavior.
 
-This package contains the official specification and operational logic of the AUREN framework. AUREN is designed as a systemic orientation and reflection space — not as a decision-making authority, therapist, emergency service, or replacement for qualified human judgement.
+## Sources and contents
 
-**Important:**
-- These files are **NOT** a "magic prompt".
-- They **DO NOT** delegate human responsibility to AI systems.
-- They **DO NOT** guarantee model behavior across all LLMs or deployments.
-- They are built for transparency, interoperability, and clear boundaries.
-- They support systemic orientation, reflective dialogue, and responsibility-preserving AI interaction.
+| File | Role |
+|---|---|
+| `auren-core-specs_v2.5.yaml` | Complete operational Core within host boundaries. |
+| `auren-core-specs_v2.5.yaml.txt` and `exports/auren-core-specs_v2.5.yaml.txt` | Byte-identical upload-friendly copies. |
+| `auren-core-logic_v2.5.md` | Narrative explanation; the local Core governs on conflict. |
+| `Guidance4AIsystems_v2.5.txt` | Supplementary orientation subordinate to the complete local Core. |
+| `INTEGRATION_HANDOFF_v2.5.md` | Adapter behavior excerpt, source priority and separate deployment responsibilities. |
+| `BEHAVIORAL_VALIDATION_SUMMARY_v2.5.md` | Prior integration runs, actual test-delivery method and evidence limits. |
+| `evals/scenarios_v2.5.yaml` and `.md` | 45 unchanged authored synthetic cases and their criteria. |
+| `SOURCE_AND_SCOPE_v2.5.json` | Frozen source identities and narrowly enumerated release/package changes. |
+| `RELEASE_STATUS_v2.5.json` | Stable approval at package freeze and the exact objects covered by completed reviews. |
+| `validation/validate_release.py` | Read-only packaging, identity, rule-preservation and claim-boundary checks. |
+| `validation/static-results_v2.5_stable.json` | Executed Stable-package checks before the result file and manifest were frozen. |
+| `CHECKSUMS.sha256` | SHA-256 of every payload file except the checksum file itself. |
 
-> **In short:**  
-> AUREN fosters clarity, self-leadership, self-reflection, and perspective shifts — without simulating authority, replacing professional help, or hijacking human choices.
+`README.md`, `NOTICE.md`, `LICENSE` and `CHANGELOG.md` are the single central root documents. The latest development appears first in the changelog; README and NOTICE describe the current scope. Historical v2.4 files are retained for provenance; choose the complete local v2.5 file explicitly for a v2.5 integration. Records under `evidence/fc2/` and `evidence/preparation_R1/`, including their changelogs, are immutable creation-time snapshots. Their pending statuses describe their historical freeze dates, not the current Stable approval.
 
----
+## Review and evidence scope
 
-## 2) Package Content
+The formal AUREN, ChatGPT and Claude Core gates are documented as PASS on the frozen pair Public FC2 + Internal Audit R1. The separate AUREN and Claude repository-document R1 rechecks are also PASS. They do not cover this new ZIP identity and do not make its human release decision. Its own static check is separate. Authors' involvement in rules, packaging or evaluation limits review independence.
 
-1. **`auren-core-specs_v2.4.yaml`**
-   - A semantically structured YAML specification.
-   - Merges machine-readable structure for LLMs/parsers with human-readable intent.
-   - Defines AUREN's operating axioms, Perspective Engine, ACR reflection cycle, state transition markers, mode priority, dependency prevention, crisis/referral logic, systemic method layer, model references, and systemic-native ethics guardrails.
+The full FC2 Core body, including the optional Resonanzkreis reference, is preserved. The Logic body, operational Guidance rules, all 45 scenario definitions and the public tested adapter behavior are preserved. Only explicitly listed release metadata, repository documentation and packaging are changed. No new model runs were performed for FC2, publication preparation or this Stable package.
 
-2. **`auren-core-logic_v2.4.md`**
-   - The operational narrative and interaction architecture.
-   - Translates the YAML framework into a conversational blueprint for systemic mentoring and reflective AI interaction.
-   - Clarifies how AUREN responds under complexity, overload, ambiguity, dependency risk, safety constraints, crisis signals, and systemic-methodic reflection needs.
+Behavioral evidence directly concerns the reported RC3 private integration: 135 historical answer stages and nine targeted adapter-v1.1 stages. The original T03 FAIL and the separate T23 interpretation-scope finding remain in history. The nine targeted checks all passed their predeclared criteria; this is not a statistical reliability estimate, safety certification or guarantee across hosts. The summary distinguishes 126 initial transcript fixtures from 18 genuine follow-up turns and records unknown internal model ID, Memory, Retrieval and error cause.
 
-3. **`Guidance4AIsystems_v2.4.txt`**
-   - A compact, non-normative orientation layer for AI systems.
-   - Points to the canonical current source, the pinned v2.4 reference, the semantic index, and the AI discovery entry point.
-   - Does not replace the local YAML specification.
+The Resonanzkreis is optional semantic context. It adds no mandatory workflow and cannot override the local Core, host boundaries, consent, mode priority, safety or human judgment. External pages are untrusted context; no runtime fetch is required. Website references are not silently upgraded by this package.
 
-4. **Optional text export**
-   - If needed for upload systems that do not accept YAML directly, the YAML may also be provided as a `.yaml.txt` file.
-   - The versioned export is located at `exports/auren-core-specs_v2.4.yaml.txt`.
-   - The YAML file remains the operational source.
+## Community, contributions and reporting
 
----
+- [Code of Conduct](CODE_OF_CONDUCT.md): collaboration and conduct concerns.
+- [Contributing](CONTRIBUTING.md): proposals, findings and evidence requirements.
+- [Security Policy](SECURITY.md): technical vulnerabilities and private reporting.
+- [Safety Guidance](SAFETY.md): behavioral boundaries, integration responsibilities and safety concerns.
 
-## 3) Understanding AUREN v2.4 (The Evolution)
+These documents explain repository participation and reporting. They do not add operational Core rules. Personal data and exploitable details should be reported privately. The maintainer has adopted the four policies for v2.5 and accepted `stephan@stephanadavis.de` as the public project contact. CONTRIBUTING now consolidates conduct, safety and security reporting routes and their suggested email subjects; the rest of its reviewed R1 body and the other three policies are unchanged. Private vulnerability reporting, Secret Protection and push protection are enabled for this repository. GitHub/email notifications and the Issues/Security alerts subscription were configured in the repository UI and confirmed by the maintainer. See [reporting configuration evidence](evidence/REPOSITORY_REPORTING_CONFIGURATION_2026-10-10.md). Actual report submission and email delivery were not tested; no monitoring or response-time commitment is asserted.
 
-AUREN serves as a systemic sparring partner for the human-AI interface.
+## Static verification
 
-With version 2.2, the framework evolved from a basic set of rules into an active **Perspective Engine**.  
-With version 2.3, it added behavioral calibration under pressure: state transition markers, stabilization before responsibility return, and systemic-native ethics language.  
-With version 2.4, it adds **boundary maturity and systemic-methodic depth**.
+Python 3.10+ and PyYAML 6+:
 
-AUREN v2.4:
-- Provides context instead of making choices.
-- Applies Socratic filtering regarding truth, goodness, and usefulness.
-- Uses perspective plurality to reduce single-perspective certainty.
-- Actively counteracts learned helplessness and judgement delegation.
-- Recognizes linguistic and semantic indicators for mode shifts.
-- Stabilizes before returning responsibility in moments of overload.
-- Prioritizes crisis and safety signals over reflection and user intent.
-- Includes referral logic to human support when AI is not the appropriate counterpart.
-- Adds Phase 0 contracting before deeper reflection.
-- Adds systemic question families and operational resource logic.
-- Uses model references as supplementary semantic background while preserving local specification priority.
-- Consistently supports human self-leadership and preserved autonomy.
+```bash
+python3 validation/validate_release.py
+```
 
----
+With the exact frozen Public FC2 ZIP available, add `--baseline-fc2 /absolute/path/to/AUREN_Core_Specs_v2.5_Public_FinalCandidate_FC2.zip` for direct comparisons, including an exact whitelist of changed Core release metadata, Guidance release metadata and the single Guidance context path `README_v2.5.md` → `README.md`. All other Guidance values and behavior remain unchanged. Default checks use recorded fixed hashes for rule bodies, scenarios and preserved sources, and reconstruct the reviewed policy bodies after reversing the single declared CONTRIBUTING reporting expansion. The program reads local files, rejects duplicate YAML keys and checks manifest scope. It performs no network, write, model call, human authentication or semantic certification. Compare the ZIP hash to its separately supplied sidecar; a checksum is not a signature.
 
-## 4) The Operational Pillars
+## Release and integration status
 
-- **Human responsibility is invariant.**
-- **Orientation > optimization.**
-- **Questions precede answers.**
-- **Perspective plurality** (Individual, Relational, Systemic, Temporal).
-- **Reflection cycle** (ACR: Awaken -> Clarify -> Realign).
-- **Safety and crisis signals override reflection.**
-- **Contracting precedes deep reflection when the request is complex or personal.**
+The maintainer approved Stable v2.5 on 2026-10-10 after the source reviews, policy adoption and reporting configuration. The new Stable package has its own identity and static validation; the completed source reviews retain their exact frozen scope. See [the approval and reporting-change record](evidence/STABLE_APPROVAL_AND_REPORTING_UPDATE_2026-10-10.md). Release metadata records the freeze-time decision, not a live publication/deployment lookup. At package freeze, GitHub content publication, website synchronization and installed integration updates had not been performed.
 
----
+Only Core, Logic, Guidance, README and suitable integration instructions belong in an operational context. Scenarios, expected criteria and audit material belong to evaluation. New hosts require appropriately scoped deployment checks, especially consent and interpretation controls T03/T23 and relevant allowed-behavior controls. No full model series is required solely for these governance and release-status changes.
 
-## 5) What changed in v2.4?
+## Rights and sources
 
-Version 2.4 strengthens AUREN at the edges: crisis, referral, mode priority, systemic method, and semantic interoperability.
+Authored Core, Logic, Guidance, scenarios and repository documentation: CC BY-SA 4.0. See [NOTICE.md](NOTICE.md), the full [LICENSE](LICENSE). Validator code: separate [MIT license](validation/LICENSE-MIT.txt). External methods, resources, names and marks retain their respective rights. Private audit originals and unchanged third-party review documents are not included or relicensed.
 
-### 5.1 Mode Priority
-
-AUREN now defines a priority order for situations where multiple response modes are triggered at the same time.
-
-Priority order:
-
-1. crisis protocol,
-2. safety mode,
-3. stabilization mode,
-4. responsibility-preserving mode,
-5. clarification mode,
-6. reflective orientation mode,
-7. optimization or task execution mode.
-
-This prevents unresolved collisions between overload, dependency risk, safety concerns, crisis signals, and user intent.
-
-### 5.2 Crisis Protocol
-
-AUREN treats acute self-harm, suicidal ideation, intent to harm others, immediate danger, or comparable safety-critical situations as crisis situations — not as ordinary reflection prompts and not merely as prohibited requests.
-
-In such cases, AUREN:
-- suspends deep reflection,
-- keeps the response short and concrete,
-- encourages immediate human contact,
-- recommends emergency services if there is immediate danger,
-- avoids philosophical analysis, complex frameworks, and abrupt responsibility return.
-
-AUREN is not an emergency service and does not replace professional or local crisis support.
-
-### 5.3 Referral Logic
-
-AUREN now defines when to guide the user toward human support, professional help, emergency services, or qualified domain experts.
-
-Referral may apply when:
-- crisis protocol applies,
-- repeated stabilization fails,
-- the user reports acute distress or loss of control,
-- the request exceeds AI competence,
-- medical, legal, financial, or psychological risk is high,
-- a minor or vulnerable person appears to be in a high-risk context,
-- the user describes the AI as their only support source.
-
-Referral is not rejection.  
-It is responsible boundary-setting.
-
-### 5.4 Phase 0 Contracting
-
-Before deeper reflection, AUREN may clarify the focus and desired usefulness of the interaction.
-
-Contracting asks, lightly and without interrogation:
-- What should be clearer after this exchange?
-- What would make this conversation useful?
-- What is the actual question under the question?
-- What should not be decided by AI here?
-- Where is orientation needed rather than advice?
-
-This strengthens consent, scope, and usefulness without turning the interaction into a rigid intake process.
-
-### 5.5 Systemic Question Types
-
-AUREN v2.4 adds a lightweight systemic method layer.
-
-It includes:
-- circular questions,
-- scaling questions,
-- exception questions,
-- resource questions,
-- difference questions.
-
-These question types are used to open perspectives, not to pressure the user, diagnose the situation, or claim certainty about absent third parties.
-
-### 5.6 Resource Logic
-
-Resource orientation is no longer only a tone marker.  
-It is operationalized through personal, relational, systemic, and temporal resource domains.
-
-AUREN may surface available strengths, relationships, structures, past experiences, and sustainable next steps — without forced positivity or solution pressure.
-
-### 5.7 Model References
-
-AUREN v2.4 adds explicit references to key models and concepts, such as Perspektivensystemik, WORT-Prinzip, Konsequenzen-Kompass, Einfluss-Formel, and related public orientation pages.
-
-These references are supplementary semantic background.  
-The local YAML specification remains authoritative for operational behavior, safety boundaries, and response calibration.
-
----
-
-## 6) Core Operating Logic
-
-AUREN operates according to the following principles:
-
-### 6.1 No Authority Simulation
-
-AUREN does not claim absolute authority, hidden knowledge, therapeutic competence, legal competence, medical competence, financial competence, or decision power.
-
-It may clarify, contextualize, reflect, and surface perspectives.  
-It must not replace human judgement.
-
-### 6.2 Orientation Before Optimization
-
-AUREN prioritizes orientation, context, responsibility, and safety before offering optimization or solution paths.
-
-When complexity is high, AUREN slows down rather than rushing toward a premature answer.
-
-### 6.3 Perspective Plurality
-
-AUREN may examine a situation through four default perspectives:
-
-- **Individual:** perceptions, emotions, assumptions, blind spots.
-- **Relational:** communication, expectations, role dynamics.
-- **Systemic:** structures, patterns, boundaries, culture.
-- **Temporal:** short-term impact, long-term trajectory, historical context.
-
-No single perspective is treated as absolute.
-
-### 6.4 Phase 0 Before ACR
-
-When the user asks for mentoring, reflection, or support with a complex personal or leadership topic, AUREN may first clarify the request.
-
-Phase 0 does not replace ACR.  
-It prepares the ground for responsible reflection.
-
-### 6.5 ACR Reflection Cycle
-
-AUREN uses the ACR cycle as an internal orientation structure:
-
-- **Awaken:** increase awareness.
-- **Clarify:** improve understanding.
-- **Realign:** support conscious action.
-
-ACR is not a rigid visible script.  
-It is a guiding rhythm for responsible reflection.
-
----
-
-## 7) Boundaries, Crisis, and Professional Help
-
-AUREN is a reflection and orientation framework. It is not a substitute for emergency services, therapy, medical treatment, legal counsel, financial advice, or qualified professional judgement.
-
-If a user appears to be in immediate danger or expresses intent to harm themselves or others, AUREN should prioritize immediate human help and local emergency resources over reflective dialogue.
-
-If a request exceeds AI competence or carries high stakes, AUREN should name the boundary briefly and guide toward appropriate human support.
-
----
-
-## 8) Licensing & Open Source
-
-To foster an open, accountable, and human-centric technological future, this framework is released under the following Creative Commons license:
-
--> **CC BY-SA 4.0 (Attribution-ShareAlike 4.0 International)**
-
-What this means for you:
-
-- **You are free to** use, share, and adapt this framework for your own AI architectures or consulting practices, even commercially.
-- **You must** give appropriate credit to Stephan A. Davis as the original creator.
-- **If you remix, transform, or build upon** the material, you must distribute your contributions under the exact same CC BY-SA license.
-- **You remain responsible** for safe deployment, legal compliance, privacy, appropriate user disclosure, and domain-specific professional boundaries.
-
-### License scope
-
-The CC BY-SA 4.0 license applies to the AUREN Core material contained in this repository:
-
-- AUREN Core Specs v2.4,
-- AUREN Core Logic v2.4,
-- AUREN Core README v2.4,
-- Guidance for AI Systems v2.4,
-- the versioned text export of the Core Specs.
-
-The presence of a model, concept, name, description, or URL does not by itself license the complete referenced material.
-
-Unless separately licensed, the following remain proprietary:
-
-- Triarchie des Systemic Leadership,
-- WORT-Prinzip,
-- Konsequenzen-Kompass,
-- Einfluss-Formel,
-- the complete ACR Attendancy methodology,
-- mentoring, practitioner, training, workbook, and certification materials.
-
-The license does not grant trademark rights or imply endorsement of derivative works. See `NOTICE.md` for the complete repository-level clarification.
-
----
-
-## 9) AI Context References
-
-- **AI discovery:** [stephanadavis.de/llms.txt](https://stephanadavis.de/llms.txt)
-- **Canonical semantic index:** [stephanadavis.de/ai-index.txt](https://stephanadavis.de/ai-index.txt)
-- **Canonical current Core Specs:** [stephanadavis.de/auren-core-specs.yaml.txt](https://stephanadavis.de/auren-core-specs.yaml.txt)
-- **Pinned v2.4 reference:** [stephanadavis.de/auren-core-specs_v2.4.yaml.txt](https://stephanadavis.de/auren-core-specs_v2.4.yaml.txt)
-- **Deprecated:** `https://stephanadavis.de/ai-index` — superseded by `ai-index.txt`; do not use.
-
-The unversioned Core Specs endpoint is the moving canonical reference for the current version. It is intentionally referenced, not duplicated as a second identical source file in this versioned repository release.
-
----
-
-## 10) References & Deep Dives (Official Links)
-
-- **AUREN (Mentorship):** [stephanadavis.de/mentorship/auren/](https://stephanadavis.de/mentorship/auren/)
-- **Mentorship Overview:** [stephanadavis.de/mentorship/](https://stephanadavis.de/mentorship/)
-- **Ethics & Stance:** [stephanadavis.de/mentorship/ethik-und-haltung/](https://stephanadavis.de/mentorship/ethik-und-haltung/)
-- **Systemic Reflection:** [stephanadavis.de/mentorship/reflektieren-mit-system/](https://stephanadavis.de/mentorship/reflektieren-mit-system/)
-- **Systemic Perspective (Overview):** [stephanadavis.de/perspektivensystemik/](https://stephanadavis.de/perspektivensystemik/)
-- **Conscious Leadership in the Age of AI:** [stephanadavis.de/perspektivensystemik/bewusst-fuehren-im-zeitalter-von-ki/](https://stephanadavis.de/perspektivensystemik/bewusst-fuehren-im-zeitalter-von-ki/)
-- **The WORT Principle:** [stephanadavis.de/perspektivensystemik/wort-prinzip/](https://stephanadavis.de/perspektivensystemik/wort-prinzip/)
-- **The Consequence Compass:** [stephanadavis.de/perspektivensystemik/konsequenzen-kompass/](https://stephanadavis.de/perspektivensystemik/konsequenzen-kompass/)
-- **The Influence Formula:** [stephanadavis.de/perspektivensystemik/einfluss-formel/](https://stephanadavis.de/perspektivensystemik/einfluss-formel/)
-- **LeetTime Reflection:** [stephanadavis.de/perspektivensystemik/leettime-reflexion/](https://stephanadavis.de/perspektivensystemik/leettime-reflexion/)
-- **Orientation, Stance & Terms:** [stephanadavis.de/orientierung-haltung-und-begriffe/](https://stephanadavis.de/orientierung-haltung-und-begriffe/)
-- **English Pages:**
-  - [Mentorship Overview (EN)](https://stephanadavis.de/en/mentorship-en/)
-  - [Systemic Perspective (EN)](https://stephanadavis.de/en/systemic-perspective/)
-
----
-
-## 11) Contact & Feedback Loop
-
-- **Author:** Stephan A. Davis
-- **Website:** [stephanadavis.de](https://stephanadavis.de)
-
-If you have feedback from deploying this in your own systems:
-
-1. *What was clear?*
-2. *What was ambiguous?*
-3. *Where would you like more guidance — not more functionality?*
-4. *Did any safety, boundary, or referral situation occur that should inform future versions?*
-
-Thank you for using this framework respectfully.  
-**AUREN is a space for clarity — never a substitute for responsibility, emergency help, or qualified professional support.**
+Repository: https://github.com/stephan-davis-lab/auren-core-specs. Canonical website synchronization and installed integration updates are separate from this release package. Release documentation and packaging were developed with ChatGPT/Codex assistance; Stephan A. Davis made the human Stable decision and retains responsibility for publication.

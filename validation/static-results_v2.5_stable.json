@@ -1,0 +1,105 @@
+{
+  "package": "v2.5-STABLE-20261010",
+  "validation_kind": "static_only",
+  "phase": "pre_freeze",
+  "status": "pass",
+  "checks": [
+    {
+      "check": "parse_unique_yaml_and_current_metadata",
+      "status": "pass",
+      "detail": "Three YAML documents parsed with duplicate-key rejection; current metadata parsed."
+    },
+    {
+      "check": "exact_preparation_metadata_and_source_identities",
+      "status": "pass",
+      "detail": "Stable version/tag v2.5, package identity and frozen source identities aligned."
+    },
+    {
+      "check": "full_core_rules_and_text_preserved",
+      "status": "pass",
+      "detail": "Full Core semantic hash and unchanged text after the release block match FC2, including Resonanzkreis."
+    },
+    {
+      "check": "guidance_rules_preserved_with_exact_metadata_exceptions",
+      "status": "pass",
+      "detail": "Every Guidance value preserved after exactly three release-metadata changes and the declared README context-path migration."
+    },
+    {
+      "check": "logic_body_preserved",
+      "status": "pass",
+      "detail": "Logic body byte-identical after the fixed preface anchor."
+    },
+    {
+      "check": "public_adapter_behavior_preserved",
+      "status": "pass",
+      "detail": "Only one release/evidence sentence differs; all other bytes inside the public adapter excerpt are preserved."
+    },
+    {
+      "check": "operative_files_exact_bytes",
+      "status": "pass",
+      "detail": "Full bytes of operative prepared files match their exact preparation definitions, including prefaces."
+    },
+    {
+      "check": "yaml_text_exports_identical",
+      "status": "pass",
+      "detail": "All three v2.5 YAML/text copies are byte-identical."
+    },
+    {
+      "check": "scenario_bytes_inventory_and_references",
+      "status": "pass",
+      "detail": "Both authored scenario files are byte-identical to FC2: 45 cases, 51 canonical stages and valid references."
+    },
+    {
+      "check": "local_references_routing_and_question_budgets",
+      "status": "pass",
+      "detail": "54 Core references, seven mode priorities, final routing and distinct question budgets align."
+    },
+    {
+      "check": "reviewed_r1_policy_bodies_preserved",
+      "status": "pass",
+      "detail": "Three reviewed R1 policy bodies preserved; reversing the single CONTRIBUTING reporting expansion restores its reviewed R1 body."
+    },
+    {
+      "check": "contribution_reporting_routes_consistent",
+      "status": "pass",
+      "detail": "Conduct/safety/security routes, three subjects, project email and exact SECURITY private-report steps are consistent."
+    },
+    {
+      "check": "historical_v2_4_and_fc2_evidence_preserved",
+      "status": "pass",
+      "detail": "Historical v2.4 files, FC2 evidence and preparation-R1 records preserved byte for byte."
+    },
+    {
+      "check": "license_texts_and_complete_notice_merge",
+      "status": "pass",
+      "detail": "Full CC/MIT texts verified; confirmed external-material exclusions and retained mark-right section match exact definitions; NOTICE scope matches files."
+    },
+    {
+      "check": "central_documents_and_local_links",
+      "status": "pass",
+      "detail": "29 local Markdown targets and all operative source paths resolve; no external currentness claim."
+    },
+    {
+      "check": "review_evidence_and_human_publication_boundaries",
+      "status": "pass",
+      "detail": "Source reviews retain their exact scope; the human Stable decision is recorded, publication/deployment remain separate, and zero new model runs are claimed."
+    },
+    {
+      "check": "public_payload_scope",
+      "status": "pass",
+      "detail": "UTF-8 payload only; no private response originals, images, nested audit ZIP, credentials, symlinks or repository internals."
+    },
+    {
+      "check": "direct_comparison_to_actual_frozen_fc2_zip",
+      "status": "pass",
+      "detail": "Actual frozen ZIP identity and payload hashes checked; direct Core/Guidance whitelist, adapter and scenario comparisons pass."
+    }
+  ],
+  "model_calls": 0,
+  "network_calls": 0,
+  "writes": 0,
+  "external_review_tool_execution_verified": false,
+  "human_approval_verified": false,
+  "human_release_decision_recorded": "approved_in_maintainer_chat",
+  "semantic_or_safety_certification": false
+}

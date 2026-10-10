@@ -2,6 +2,47 @@
 
 All notable changes to the AUREN Core Specs are documented in this file.
 
+## [2.5] — 2026-10-10
+
+Stable approved on this date. This entry records the publication package; external publication and deployment are separate actions.
+
+### Stable approval and reporting routes
+
+- Recorded the maintainer’s human Stable decision and finalized v2.5 release/status metadata without changing Core rules.
+- Expanded CONTRIBUTING with conduct, safety and security contacts, all three suggested email subjects, the private GitHub vulnerability form and an email fallback.
+- Preserved the remainder of CONTRIBUTING and all three other policy files; contribution-license terms are unchanged.
+- Retained preparation-R1 snapshots, added the exact preparation-to-Stable diff, and froze a new manifest and static-check record; zero new model runs.
+
+### Final repository preparation R1
+
+- Consolidated README, NOTICE, LICENSE and CHANGELOG as central root documents; archived the unchanged FC2 changelog as provenance.
+- Updated the single Guidance context path to `README.md`; all other operative Guidance values are preserved.
+- Explicitly excluded separately published Perspektivensystemik and Resonanzkreis materials, courses, workbooks, books and future editions beyond portions actually included in the licensed Core. Existing Core licenses remain unaffected.
+- Recorded maintainer adoption of the reviewed policies and the accepted public project contact.
+- Recorded enabled private vulnerability reporting, Secret Protection, push protection and configured repository/email notifications, with their actual evidence limits.
+- Refroze the preparation with a new identity, refreshed static validation and a complete payload manifest; no new model runs.
+
+### Operational v2.5 development
+
+- Clarified contextual signal interpretation, source authority and host boundaries, consent scope and revocation, requested reflection and reasoned recommendations.
+- Aligned mode priority, response routing and distinct question budgets; calibrated support and emergency guidance without diagnosing users or inferring crisis from style alone.
+- Added the optional Resonanzkreis concept reference in FC2 without a mandatory workflow or change to the remaining Core rules.
+- Preserved 45 canonical authored cases and documented 135 historical RC3 answer stages plus nine targeted adapter-v1.1 checks, including preserved T03/T23 findings and explicit evidence limits.
+
+### Repository preparation
+
+- Added the reviewed Code of Conduct, contribution guidelines, Security Policy and Safety Guidance.
+- Merged README, complete NOTICE, license scope and current release status; retained the historical v2.4 versioned files.
+- Included the full CC BY-SA 4.0 legal code and preserved the separate MIT validator license.
+- Documented the test-delivery method, review dependencies, exact source identities and scope of unchanged behavior.
+- Added a separate read-only validator, manifest and preparation evidence. ChatGPT/Codex assisted drafting and verification.
+
+### Scope
+
+- This preparation preserves the full frozen FC2 normative Core body, Logic body, Guidance behavior, scenario files and adapter behavior. Its changes are repository documentation, the declared CONTRIBUTING reporting expansion, explicit release metadata and packaging.
+- Core gates on Public FC2 + Internal R1 and document R1 rechecks are complete. Policy adoption and human Stable approval are confirmed. Public publication and deployments are not inferred from package creation; no new model run or installation is claimed.
+- Candidate snapshots remain immutable. See [the frozen FC2 changelog](evidence/fc2/CHANGELOG_at_freeze.md) for the historical FC1/FC2 preparation record.
+
 ## [2.4] — 2026-08-08 GitHub publication package
 
 The normative v2.4 content predates this GitHub publication package. Repository packaging does not change the operational meaning of the Core Specs or Core Logic.
@@ -26,3 +67,5 @@ The normative v2.4 content predates this GitHub publication package. Repository 
 - added content checksums.
 
 For the detailed operational description, see the “What changed in v2.4?” section in `README.md`.
+
+Historical reading note: the v2.4 description corresponds to the README in the pinned v2.4 release.

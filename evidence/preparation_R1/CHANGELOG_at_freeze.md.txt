@@ -1,0 +1,62 @@
+# Changelog
+
+All notable changes to the AUREN Core Specs are documented in this file.
+
+## Unreleased — v2.5 release preparation R1, 2026-10-10
+
+### Final repository preparation R1
+
+- Consolidated README, NOTICE, LICENSE and CHANGELOG as central root documents; archived the unchanged FC2 changelog as provenance.
+- Updated the single Guidance context path to `README.md`; all other operative Guidance values are preserved.
+- Explicitly excluded separately published Perspektivensystemik and Resonanzkreis materials, courses, workbooks, books and future editions beyond portions actually included in the licensed Core. Existing Core licenses remain unaffected.
+- Recorded maintainer adoption of the reviewed policies and the accepted public project contact.
+- Recorded enabled private vulnerability reporting, Secret Protection, push protection and configured repository/email notifications, with their actual evidence limits.
+- Refroze the preparation with a new identity, refreshed static validation and a complete payload manifest; no new model runs.
+
+### Operational v2.5 development
+
+- Clarified contextual signal interpretation, source authority and host boundaries, consent scope and revocation, requested reflection and reasoned recommendations.
+- Aligned mode priority, response routing and distinct question budgets; calibrated support and emergency guidance without diagnosing users or inferring crisis from style alone.
+- Added the optional Resonanzkreis concept reference in FC2 without a mandatory workflow or change to the remaining Core rules.
+- Preserved 45 canonical authored cases and documented 135 historical RC3 answer stages plus nine targeted adapter-v1.1 checks, including preserved T03/T23 findings and explicit evidence limits.
+
+### Repository preparation
+
+- Added the reviewed Code of Conduct, contribution guidelines, Security Policy and Safety Guidance.
+- Merged README, complete NOTICE, license scope and current release status; retained the historical v2.4 versioned files.
+- Included the full CC BY-SA 4.0 legal code and preserved the separate MIT validator license.
+- Documented the test-delivery method, review dependencies, exact source identities and scope of unchanged behavior.
+- Added a separate read-only validator, manifest and preparation evidence. ChatGPT/Codex assisted drafting and verification.
+
+### Scope
+
+- This preparation preserves the full frozen FC2 normative Core body, Logic body, Guidance behavior, scenario files and adapter behavior. Its changes are repository documentation, explicit release metadata and packaging.
+- Core gates on Public FC2 + Internal R1 and document R1 rechecks are complete. Policy adoption is confirmed; Stable approval and public publication remain pending; no new model run or installation is claimed.
+- Candidate snapshots remain immutable. See [the frozen FC2 changelog](evidence/fc2/CHANGELOG_at_freeze.md) for the historical FC1/FC2 preparation record.
+
+## [2.4] — 2026-08-08 GitHub publication package
+
+The normative v2.4 content predates this GitHub publication package. Repository packaging does not change the operational meaning of the Core Specs or Core Logic.
+
+### AUREN v2.4
+
+- added explicit mode priority,
+- added crisis protocol and referral logic,
+- added Phase 0 contracting,
+- added systemic question families,
+- operationalized resource logic,
+- added explicit model references with local-specification priority,
+- strengthened responsibility preservation and dependency prevention.
+
+### Repository publication metadata
+
+- added a GitHub-rendered `README.md`,
+- added `LICENSE` and `NOTICE.md`,
+- documented canonical current and pinned versioned sources,
+- included the versioned text export under `exports/`,
+- excluded the duplicate unversioned website alias from the versioned repository package,
+- added content checksums.
+
+For the detailed operational description, see the “What changed in v2.4?” section in `README.md`.
+
+Historical reading note: the v2.4 description corresponds to the README in the pinned v2.4 release.

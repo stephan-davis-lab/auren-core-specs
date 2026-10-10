@@ -1,0 +1,43 @@
+{
+  "candidate_id": "FC2",
+  "prepared_on": "2026-10-09",
+  "source_candidate": "2.5-rc3",
+  "source_candidate_zip_sha256": "bdc8fe1ecf69a40dbec50d78cd640f62ae60ea37cd62cb8a07a3480be58e1b82",
+  "core_normative_sha256": "71ef4c028b6e0cd90ddc9c4569067bb7322214b46230136c0f75ea397738682c",
+  "guidance_nonmetadata_sha256": "174c68cee8796fd0598b8a7f0039de65fead834f3684265078867075be2f8d3d",
+  "logic_body_anchor": "The local YAML governs this narrative on conflict",
+  "logic_body_sha256": "99b8e861dd938c5ec7ac6c169faa73dbe73474b3feb44f5e54b5a499da10e559",
+  "scenario_definitions_sha256": "135dba7628632f7a4661f8acabdd9f22c01251192b211e59afc652b6c063ebdf",
+  "tested_adapter_sha256": "eb9df578714d58020c4471f3a26fa102aa68e1ed2e1de91a9f7cdb97d27e5e57",
+  "only_core_changes": "candidate_release_metadata_and_single_optional_concept_reference; all_other_core_body_content_unchanged",
+  "evidence_source": "private_integration_reported_UI_model_5.6_Hoch; see_BEHAVIORAL_VALIDATION_SUMMARY_v2.5.md",
+  "original_artifacts": "unchanged_in_Internal_Audit_Bundle",
+  "previous_final_candidate": {
+    "candidate_id": "FC1",
+    "public_zip": "AUREN_Core_Specs_v2.5_Public_FinalCandidate_FC1.zip",
+    "public_sha256": "e2606b18bf07009f0413590e472dffacdd50c935200835e88deb17b64ed78735",
+    "internal_zip": "AUREN_Core_Specs_v2.5_Internal_Audit_FinalCandidate_FC1.zip",
+    "internal_sha256": "e50a50f9df314e39a04f9ee9fd66ed7b281bec4534b2440025fe44d94be5d41d"
+  },
+  "previous_core_normative_sha256": "97484494cbd02da718c2fec17a9c20472900d139bfa89e26b72993d03607ca8f",
+  "semantic_delta": {
+    "operation": "add",
+    "path": "auren_core_spec.model_references.concepts.resonance_cycle",
+    "added_value": {
+      "label": "Resonanzkreis",
+      "reference": {
+        "url": "https://stephanadavis.de/perspektivensystemik/resonanzkreis/"
+      },
+      "role": "reflection_action_feedback_context"
+    }
+  },
+  "reference_addition_note": "evidence/RESONANZKREIS_REFERENCE_ADDITION_FC2.md",
+  "reference_page_check": {
+    "url": "https://stephanadavis.de/perspektivensystemik/resonanzkreis/",
+    "read_on": "2026-10-09",
+    "scope": "single_model_description_and_context; no_full_external_currentness_audit",
+    "page_is_version_frozen": false
+  },
+  "new_FC2_model_runs": 0,
+  "behavioral_transfer_limit": "Prior evidence directly tests reported RC3 integrations. Remaining rules are unchanged; possible interpretive influence of the optional reference awaits final reviews."
+}

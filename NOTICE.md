@@ -1,33 +1,42 @@
-# AUREN Core Specs v2.4 — License and Source Notice
+# AUREN Core Specs v2.5 — License and Source Notice
 
 Copyright © 2026 Stephan A. Davis
 
 ## Licensed material
 
-The following material in this repository is released under the Creative Commons Attribution-ShareAlike 4.0 International license:
+The AUREN Core material authored by Stephan A. Davis in this repository is released under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0):
 
-- `README.md` — AUREN Core README v2.4
-- `auren-core-specs_v2.4.yaml` — AUREN Core Specs v2.4
-- `auren-core-logic_v2.4.md` — AUREN Core Logic v2.4
-- `Guidance4AIsystems_v2.4.txt` — Guidance for AI Systems v2.4
-- `exports/auren-core-specs_v2.4.yaml.txt` — versioned text export of the Core Specs v2.4
+- `auren-core-specs_v2.5.yaml`, its byte-identical `auren-core-specs_v2.5.yaml.txt` copy and `exports/auren-core-specs_v2.5.yaml.txt` export;
+- `auren-core-logic_v2.5.md` and `Guidance4AIsystems_v2.5.txt`;
+- `README.md`, `CHANGELOG.md` and this `NOTICE.md`;
+- `INTEGRATION_HANDOFF_v2.5.md`, `BEHAVIORAL_VALIDATION_SUMMARY_v2.5.md` and authored `evals/` scenario definitions;
+- `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md` and `SAFETY.md`;
+- authored provenance, release-status and evidence documentation supplied in this package.
 
-The full license is available at <https://creativecommons.org/licenses/by-sa/4.0/>.
+Earlier versioned AUREN Core files retained in the repository keep their previously stated licenses and pinned identities. The previous v2.4 sources are preserved unchanged in this preparation.
+
+Code in `validation/` uses the separate MIT license in `validation/LICENSE-MIT.txt`. The full CC BY-SA 4.0 legal code is included as `LICENSE`; the project-specific scope is stated in this `NOTICE.md`. Online legal code: <https://creativecommons.org/licenses/by-sa/4.0/legalcode.en>.
+
+The two license texts retain their own terms. Linked resources, complete external methodologies, names and marks retain their respective rights. Repository participation policies do not add restrictions to reuse permitted by the applicable licenses.
 
 ## Excluded material
 
-The presence of a model, concept, name, description, or URL in the licensed material does not by itself grant permission to reproduce, adapt, redistribute, commercialize, or represent the complete referenced material as open source.
+The CC BY-SA 4.0 license applies to the concrete AUREN Core material identified above. A model, concept, method, description or URL referenced in that material does not by itself license the complete separately published work or methodology.
 
-Unless a separate public license explicitly states otherwise, the following remain proprietary:
+Unless a separate public license explicitly states otherwise, the following separately published descriptions and materials remain proprietary and are excluded from this repository's CC BY-SA 4.0 license, beyond the portions concretely expressed in the licensed AUREN Core material:
 
-- Triarchie des Systemic Leadership
-- WORT-Prinzip
-- Konsequenzen-Kompass
-- Einfluss-Formel
-- the complete ACR Attendancy methodology beyond the portions concretely expressed in the licensed AUREN Core material
-- mentoring, practitioner, training, workbook, and certification materials
+- Perspektivensystemik framework descriptions and materials;
+- Triarchie des Systemic Leadership descriptions and materials;
+- WORT-Prinzip descriptions and materials;
+- Konsequenzen-Kompass descriptions and materials;
+- Einfluss-Formel descriptions and materials;
+- the complete ACR Attendancy methodology and its materials;
+- the complete Resonanzkreis methodology, descriptions and materials;
+- mentoring, practitioner, training, course, workshop, workbook, book, e-book and certification materials, including future publications and editions.
 
-Public descriptions and semantic references may be used for contextual understanding and accurate attribution. They must not be interpreted as a general license for adaptation or redistribution.
+The references and portions of method descriptions actually included in the licensed AUREN Core material remain available under CC BY-SA 4.0. This exclusion does not revoke previously granted licenses or restrict rights already granted in that licensed material. Any separate license expressly applied to an external work continues to govern that work.
+
+References to separately published materials provide context and attribution; they do not grant a general license to adapt or redistribute those external materials.
 
 ## Attribution and modifications
 
@@ -41,7 +50,7 @@ When reusing or adapting the licensed material:
 
 Suggested attribution:
 
-> Based on AUREN Core Specs v2.4 by Stephan A. Davis, licensed under CC BY-SA 4.0. Changes were made.
+> Based on AUREN Core Specs v2.5 by Stephan A. Davis, licensed under CC BY-SA 4.0. Changes were made.
 
 ## Names, marks, and endorsement
 
@@ -49,10 +58,13 @@ Creative Commons licensing does not grant trademark or brand rights. The names A
 
 ## Source topology
 
-- AI discovery: <https://stephanadavis.de/llms.txt>
-- Canonical semantic index: <https://stephanadavis.de/ai-index.txt>
-- Canonical current Core Specs: <https://stephanadavis.de/auren-core-specs.yaml.txt>
-- Pinned v2.4 reference: <https://stephanadavis.de/auren-core-specs_v2.4.yaml.txt>
-- Deprecated: `https://stephanadavis.de/ai-index` — do not use
+- Package-local operational v2.5 source: `auren-core-specs_v2.5.yaml` and its byte-identical text exports.
+- Repository: <https://github.com/stephan-davis-lab/auren-core-specs>.
+- AI discovery: <https://stephanadavis.de/llms.txt>.
+- Canonical semantic index: <https://stephanadavis.de/ai-index.txt>.
+- Moving website Core endpoint: <https://stephanadavis.de/auren-core-specs.yaml.txt>.
+- Historical pinned v2.4 endpoint: <https://stephanadavis.de/auren-core-specs_v2.4.yaml.txt>.
+- Planned pinned v2.5 website endpoint: `https://stephanadavis.de/auren-core-specs_v2.5.yaml.txt`; its publication is a separate synchronization step.
+- Deprecated: `https://stephanadavis.de/ai-index` — do not use.
 
-The unversioned Core Specs endpoint is the moving canonical reference for the current version. The versioned endpoint and the files in the `v2.4` release provide a pinned reference.
+This package does not assert that moving website endpoints, the AI Index, llms.txt or installed integrations already serve v2.5. Package approval, public repository release and website synchronization are separate events. Historical release identities remain intact.
